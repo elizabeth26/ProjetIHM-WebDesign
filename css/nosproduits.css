@@ -35,7 +35,6 @@ p {
     font-family: 'karma', serif;
 	margin-bottom: 10px;
 }
-
 /*============menu-nav==============*/
 
 header{
@@ -79,12 +78,13 @@ header{
     padding: 15px 15px 15px 15px;
 }
 
-#founder {
-    height: 600px;
-    width: 600px;
+.intro {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 80px 10px 80px;
 }
 
-.bandeau {
+.title {
     height: 30px;
     width: 600px;
     display: block;
@@ -93,21 +93,48 @@ header{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-.gauche, .droite h2 {
-    text-align: center;
-    margin-bottom: 20px
-}
-
-.droite {
-    text-align: justify;
-    margin-top: 15px;
-}
-
 .gauche, .droite {
     display: inline-block;
-    width: 49%;
-    vertical-align: text-top;
+    width: 49.8%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    vertical-align: top;
+}
+
+.kl, .kl2 {
+    height: 65px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.vm, .vm2 {
+    height: 65px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.kl2, .vm2 {
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.gauche p {
+    margin: 20px 80px 20px 80px;
+    text-align: center;
+}
+
+.droite p {
+    margin: 20px 80px 46px 80px;
+    text-align: center;
 }
 
 /*Footer*/
@@ -124,17 +151,14 @@ footer .title{
 footer .content-1{
 	display: flex;
 	justify-content: space-between;
-	border-bottom: none;
 }
 footer .menu{
-	border-right: none;
 	padding: 0px 10px 10px 0px;
 }
 footer a{
 	  color: #FDDCB0;
 }
 footer .contact{
-	border-right: none;
 	padding: 0px 10px 10px 0px;
 }
 footer .info{
