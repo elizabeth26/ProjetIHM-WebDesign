@@ -8,8 +8,8 @@
 /*============menu-nav==============*/
 
 header{
-	padding: 0px 10px;
-	background-color: #010A0F;
+	padding-left: 12px;
+	background-color: black;
 	display: flex;
 	justify-content: space-between;
 }
@@ -17,29 +17,35 @@ header{
 #cont_menus{
 	display: flex;
 	flex-direction: column;
-	width: 80%;
+	width: 85%;
 }
 #reseaux-sociaux{
+	padding-right: 10px;
 	display: flex;
 	justify-content: flex-end;
 	margin: 5px 0px;
 }
+
 .reseaux {
--webkit-filter: opacity(35%);
-}
-#reseaux-sociaux a:hover img{
-	filter: none;
+width: 18px;
 }
 #reseaux-sociaux a{
-	padding: 0px 5px;}
+	padding: 0px 18px;
+}
 #menu-nav{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 #menu-nav a{
-	opacity: 0.5;
-	color: #FDEDD8;
-	height: 30px;
+color: #FDEDD8;
+padding: 10px;
+width: 50%;
+text-align: center;
+}
+#menu-nav a:hover{
+	background: #FDEDD8;
+	color: #010A0F;
 }
 
 /*==========================*/
@@ -62,17 +68,17 @@ header{
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	background: #545454;
+	background: #FDDCB0;
 	margin: 3px;
 	text-indent: -9999px
 }
 
 .theme-mi-slider .nivo-control:hover{
-	background: #1B1B1B;
+	background: #FDDCB0;
 }
 
 .theme-mi-slider .active{
-	background: #1B1B1B;
+	background: #06283B;
 }
 
 /* Nivo direction ============*/
@@ -99,27 +105,56 @@ header{
 	position: absolute;
 }
 /*Contennu slider*/
+.nivo-caption h1{
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 60px;
+}
+.nivo-caption p{
+	font-size: 18px;
+}
 #slider img{
-	max-height: 500px;
-	}
+	max-height: 520px;
+}
+.buttons{
+	display: flex;
+	justify-content: space-around;
+  padding: 60px 320px;
+}
 .b_acheter,.b_collection {
     background-color: #010A0F;
     border: none;
 		color: #FDEDD8;
-    padding: 15px 32px;
+    padding: 14px 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
+    font-size: 14px;
+		border-radius:6px;
+}
+.b_acheter:hover{
+	background-color: #06283B;
+	color: #FDEDD8;
+}
+.b_collection:hover{
+	background-color: #06283B;
+	color: #FDEDD8;
 }
 /*Images-text*/
 #pres_produits h1{
 	font-weight: bold;
 	color: #06283B;
+	line-height: 36px;
+}
+.cont_prods p{
+	text-align: justify;
+	line-height: 18px;
 }
 #pres_produits{
-	padding: 0px 150px;
+	padding: 0px 200px;
+	background: #FDEDD8;
+}
+.cont_prods{
+	background: white;
 }
 #part1,#part2,#part3,#part4{
 	display: flex;
@@ -127,11 +162,13 @@ header{
 }
 .cont-1,.cont-2,.cont-3,.cont-4{
   align-self: center;
+	padding: 30px;
+	width: 50%;
 }
 /*Footer*/
 footer{
   padding: 15px;
-  background: #010A0F;
+  background: black;
   color: #FDDCB0;
 }
 footer .title{
@@ -139,22 +176,43 @@ footer .title{
 	color: #FDEDD8;
 	opacity: 0.5;
 }
+.info p{
+	padding: 10px;
+}
 footer .content-1{
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid #06283B;
+	margin-bottom: 10px;
 }
 footer .menu{
 	border-right: 1px solid #06283B;
-	padding: 0px 10px 10px 0px;
+	width: 20%;
 }
 footer a{
 	  color: #FDDCB0;
 }
 footer .contact{
 	border-right: 1px solid #06283B;
-	padding: 0px 10px 10px 0px;
+	 width: 35%;
 }
 footer .info{
-  padding: 0px 10px 10px 0px;
+	width: 40%;
 }
+.list {
+	padding: 10px 0px 0px 10px;
+  line-height: 20px;
+	}
+	.adresse{
+		border-top: 1px solid #06283B;
+		padding-left: 10px;
+    padding-top: 8px;
+	}
+.phone,.e-mail{
+	display: flex;
+  justify-content: space-between;
+  width: 42%;
+  align-items: center;
+}
+.phone{
+	padding-bottom: 10px;
+  padding-top: 10px;}
