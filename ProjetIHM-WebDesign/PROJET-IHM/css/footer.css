@@ -1,0 +1,57 @@
+/*Footer*/
+footer{
+  padding: 15px;
+  background: black;
+  color: #FDDCB0;
+}
+footer .title{
+	font-weight: bold;
+	color: #FDEDD8;
+	opacity: 0.5;
+}
+.info p{
+	padding: 5px;
+}
+footer .content-1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+footer .menu{
+	border-right: 1px solid #06283B;
+	width: 20%;
+}
+footer a{
+	  color: #FDDCB0;
+}
+footer .contact{
+	border-right: 1px solid #06283B;
+	 width: 35%;
+}
+footer .info{
+	width: 40%;
+}
+footer .list {
+	padding: 10px 0px 0px 10px;
+  line-height: 20px;
+	}
+footer.adresse{
+		border-top: 1px solid #06283B;
+		padding-left: 10px;
+    padding-top: 8px;
+	}
+footer .phone,.e-mail{
+	display: flex;
+  justify-content: space-between;
+  width: 42%;
+  align-items: center;
+}
+footer .phone{
+	padding-bottom: 10px;
+  padding-top: 10px;
+}
+footer .adresse {
+  border-top: 1px solid #06283B;
+  padding-top: 10px;
+}
+footer p{margin-bottom: 0px}

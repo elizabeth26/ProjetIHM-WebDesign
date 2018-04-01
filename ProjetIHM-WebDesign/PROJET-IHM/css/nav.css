@@ -1,0 +1,42 @@
+/*============menu-nav==============*/
+header{
+	padding-left: 12px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+#cont_menus{
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+#reseaux-sociaux{
+	padding-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 5px 0px;
+}
+
+.reseaux {
+width: 18px;
+height: 18px;
+}
+#reseaux-sociaux a{
+	padding: 0px 18px;
+}
+#menu-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#menu-nav a{
+color: #FDEDD8;
+padding: 10px;
+width: 50%;
+text-align: center;
+}
+#menu-nav a:hover{
+	background: #FDEDD8;
+	color: #010A0F;
+}
