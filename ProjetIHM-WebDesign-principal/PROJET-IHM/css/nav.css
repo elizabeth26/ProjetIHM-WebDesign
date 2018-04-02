@@ -40,3 +40,15 @@ text-align: center;
 	background: #FDEDD8;
 	color: #010A0F;
 }
+@media screen and (min-width: 768px) and (max-width: 960px)
+{
+	#menu-nav a{
+		font-size: 11px;
+		padding: 15px;
+		width: auto;
+	}
+	.reseaux {
+	    width: 15px;
+	    height: 15px;
+	}
+}
