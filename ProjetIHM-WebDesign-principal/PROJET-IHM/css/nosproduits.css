@@ -1,8 +1,8 @@
-
 p {
-    font-family: 'karma', serif;
+    font-family: sans-serif;
   	margin-bottom: 10px;
     line-height: 18px;
+    font-size: 14px;
 }
 /*Corps*/
 .corps {

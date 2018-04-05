@@ -59,9 +59,11 @@
 	font-weight: bold;
 	font-size: 25px;
   line-height: 40px;
+	padding-bottom: 14px;
+	font-family: Karma;
 }
 .nivo-caption p{
-	font-size: 18px;
+	font-size: 16px;
 }
 #slider img{
 	max-height: 580px;
@@ -94,11 +96,13 @@
 	font-weight: bold;
 	color: #06283B;
 	line-height: 36px;
+	font-family: karma;
 }
 .cont_prods p{
 	text-align: justify;
 	line-height: 18px;
 	padding-left: 10px;
+	font-size: 14px;
 }
 #pres_produits{
 	padding: 0px 200px;
