@@ -24,14 +24,14 @@ footer .content-1{
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
-footer .menu{
+footer .menu_footer{
 	border-right: 1px solid #06283B;
 	width: 20%;
 }
-footer a{
+footer #link{
 	  color: #FDDCB0;
 }
-footer a:hover {
+footer  #link:hover {
     text-decoration: underline;
     font-weight: bold;
     font-size: 14px;
@@ -68,6 +68,11 @@ footer .adresse {
   padding-top: 10px;
 }
 footer p{margin-bottom: 0px}
+@media screen and (max-width: 768px){
+  footer .phone, .e-mail{width: 55%;}
+  footer .info p{display: block;}
+}
+
 @media screen and (min-width: 768px) and (max-width: 960px)
 {
   footer .phone, .e-mail {

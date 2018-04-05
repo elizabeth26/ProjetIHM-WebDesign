@@ -48,11 +48,13 @@
 	background-size: cover;
 	text-indent: -9999px;
 	right: 6px;
+
 }
 /*Nivo Caption*/
 
 .nivo-html-caption{
 	position: absolute;
+
 }
 /*Contennu slider*/
 .nivo-caption h1{
@@ -61,6 +63,7 @@
   line-height: 40px;
 	padding-bottom: 14px;
 	font-family: Karma;
+
 }
 .nivo-caption p{
 	font-size: 16px;
@@ -119,6 +122,17 @@
   align-self: center;
 	padding: 30px;
 	width: 50%;
+}
+@media screen and (max-width: 768px){
+.cont_prods img {
+    width: 35%;
+    height: 30%;
+}
+.cont_prods p {
+    font-size: 10px;
+}
+.nivo-caption h1,p ,.buttons{display: none;}
+#pres_produits{padding: 0px 10%;}
 }
 @media screen and (min-width: 768px) and (max-width: 960px)
 {
