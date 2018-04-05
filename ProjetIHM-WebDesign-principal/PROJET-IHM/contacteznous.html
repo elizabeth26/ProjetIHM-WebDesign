@@ -8,7 +8,7 @@
 	<link rel="stylesheet"  href="./css/footer.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Karma:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="./css/contactez.css">
+	<link rel="stylesheet" href="./css/contacteznous.css">
 </head>
 <body>
 	<header>
@@ -46,6 +46,35 @@
 		</div>
 	</header>
     <section>
+        <div class="container">
+            <form action="action_page.php">
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="fname" name="prenom" placeholder="Prénom">
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom">
+                
+            <label for="mail">Adresse e-mail</label>
+            <input type="text" id="mail" name="mail" placeholder="E-mail">
+                
+            <label for="tel">Téléphone (facultatif)</label>
+            <input type="text" id="tel" name="tel" placeholder="Numéro de téléphone">
+
+            <label for="sujet">Raison du contact</label>
+            <select id="sujet" name="sujet">
+                <option value="choix">Faites votre choix ... </option>
+                <option value="produits">Produits</option>
+                <option value="livraison">Livraision</option>
+                <option value="retours">Retours</option>
+            </select>
+
+            <label for="commentaire">Commentaire</label>
+            <textarea id="commentaire" name="commentaire" placeholder="Écrivez quelque chose ..." style="height:200px"></textarea>
+
+            <input type="submit" value="Envoyer">
+            </form>
+        </div>
     </section>
     <footer>
         <div class="content-1">
