@@ -39,7 +39,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		// console.log($(window).scrollTop());
 		if($(window).scrollTop() > navTop){
-			$('.navegacion').css({'position':'fixed','top':'0'})
+			$('.navegacion').css({'position':'absolute','top':'0'})
 			$('body').css({'padding-top':navHeight})
 			$('.nav-responsive').css({'position':'fixed'})
 		} else{
