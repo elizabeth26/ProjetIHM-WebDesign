@@ -1,9 +1,3 @@
-p {
-    font-family: sans-serif;
-  	margin-bottom: 10px;
-    line-height: 18px;
-    font-size: 14px;
-}
 /*Corps*/
 .corps {
     margin: 15px 0px 15px 0px;
@@ -25,6 +19,7 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .gauche, .droite {
     display: inline-block;
     width: 49.8%;
@@ -67,4 +62,27 @@ p {
 .droite p {
     margin: 20px 80px 46px 80px;
     text-align: center;
+}
+
+.utiles .info{
+    height: 30px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.utiles h2 {
+    margin: 15px 15px 15px 15%;
+    padding: 0px 10px 10px 10px;
+    color: #06283B;
+}
+
+.utiles p {
+    text-align: justify;
+    margin: 0px 10% 0px 19%;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 30px;
 }

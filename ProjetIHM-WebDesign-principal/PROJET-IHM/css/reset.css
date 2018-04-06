@@ -44,3 +44,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*********************************************/
+
+h1 {
+    font-family: 'karma' serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'karma' serif;
+    font-size: 22px;
+}
+
+a, h3{
+    font-family: 'karma' serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+p {
+    font-family: 'karma' serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
