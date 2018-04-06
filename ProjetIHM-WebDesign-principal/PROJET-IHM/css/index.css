@@ -99,13 +99,12 @@
 	font-weight: bold;
 	color: #06283B;
 	line-height: 36px;
-	font-family: karma;
+	font-family: sans-serif;
 }
 .cont_prods p{
 	text-align: justify;
 	line-height: 18px;
 	padding-left: 10px;
-	font-size: 14px;
 }
 #pres_produits{
 	padding: 0px 200px;
@@ -133,6 +132,13 @@
 }
 .nivo-caption h1,p ,.buttons{display: none;}
 #pres_produits{padding: 0px 10%;}
+}
+@media screen and (max-width: 768px){
+	#part1 h1,#part2 h1,#part3 h1 ,#part4 h1{font-size: 14px;}
+	#part1 p,#part2 p,#part3 p ,#part4 p{
+		display: block;
+		line-height: 10px;
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 960px)
 {
