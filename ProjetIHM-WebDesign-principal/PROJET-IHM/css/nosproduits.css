@@ -29,7 +29,6 @@ section{
   background: black;
   padding: 12px 0px;
   width: 90%;
-  font-family: karma;
   font-size: 24px;
 }
 .gauche p, .droite p{
@@ -61,31 +60,41 @@ text-align: justify;
 padding: 5px;
 font-size: 15px;
 }
+
 @media screen and (max-width: 768px){
-   p{
-     display: block;
-     font-size: 15px;
-     line-height: 16px;
-     text-align: justify;
-   }
-   .produits {
-    flex-direction: column;
-   }
-   .text_prod {
-    padding: 0px 20px;
+    section{
+        padding: 20px 0px;
     }
-  .gauche, .droite {
-    width: 100%;
-  }
-   .gauche p, .droite p {
-     text-align: justify;
- }
-  .utiles { flex-direction: column;}
-  .ut_info{
-   width: 100%;
- }
- .utiles h2 {
-    padding-top: 2px;
-    text-decoration-line: underline;
-    font-size: 14px;}
+    p{
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: justify;
+    }
+    .produits {
+        flex-direction: column;
+    }
+    .text_prod {
+        padding: 0px 20px;
+    }
+    .gauche, .droite {
+        width: 100%;
+    }
+    .gauche p, .droite p {
+        text-align: justify;
+    }
+    .utiles {
+        flex-direction: column;
+    }
+    .ut_info{
+        width: 100%;
+    }
+    .utiles h2 {
+        padding-top: 2px;
+        text-decoration-line: underline;
+        font-size: 14px;
+    }
+    .intro .title {
+        width: 100%;
+    }
 }

@@ -44,3 +44,9 @@ input[type=submit]:hover {
     background-color: #FFFFFF;
     padding: 20px;
 }
+
+@media screen and (max-width: 768px){
+    section {
+        padding: 0px 50px 0px 50px;
+    }
+}
