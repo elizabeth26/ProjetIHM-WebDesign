@@ -81,20 +81,32 @@ background:#FDEDD8;
 }
 
 @media screen and (max-width: 768px){
-	header{padding-left: 0px;}
-	#cont_menus {width: 100%;}
-	#reseaux-sociaux{justify-content: center;}
-	#reseaux-sociaux a {padding: 8px 10px;}
-	#logo{display: none;}
+	header{
+        padding-left: 0px;
+    }
+	#cont_menus {
+        width: 100%;
+    }
+	#reseaux-sociaux{
+        justify-content: center;
+    }
+	#reseaux-sociaux a {
+        padding: 8px 10px;
+    }
+	#logo{
+        display: none;
+    }
 	.boton-menu{
 		width: 90%;
 		margin: auto;
 		display: flex;
 	}
-	#caval_title{	margin-left: calc(50% - 75px);}
+	#caval_title{	
+        margin-left: calc(50% - 75px);
+    }
 	#caval_title img{
 		width: 100px;
-    height: 40px;
+        height: 40px;
 	}
 	.navegacion nav{
 		position: absolute;

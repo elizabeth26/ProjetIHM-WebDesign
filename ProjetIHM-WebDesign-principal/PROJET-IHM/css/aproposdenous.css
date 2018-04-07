@@ -51,6 +51,11 @@
 }
 
 @media screen and (max-width: 768px){
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
     .haut h1 {
         width: 100%;
     }

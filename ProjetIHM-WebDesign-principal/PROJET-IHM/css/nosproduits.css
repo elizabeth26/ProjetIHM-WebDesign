@@ -47,7 +47,7 @@ section{
     justify-content: space-around;
 }
 .ut_info{
-  width: 24%;
+  width: 23%;
 }
 .utiles h2 {
   color: black;
@@ -65,7 +65,7 @@ font-size: 15px;
 
 @media screen and (max-width: 768px){
     section {
-        padding: 20px 0px;
+        padding: 20px 20px;
     }
     p {
         display: block;
@@ -98,5 +98,8 @@ font-size: 15px;
     }
     .intro .title {
         width: 100%;
+    }
+    .info {
+        margin-top: 15px;
     }
 }
