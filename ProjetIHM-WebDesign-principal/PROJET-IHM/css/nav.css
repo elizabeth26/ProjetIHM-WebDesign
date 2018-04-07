@@ -29,6 +29,7 @@ background:#FDEDD8;
 .navegacion{
 	width: 100%;
 	background: black;
+	z-index: 100;
 }
 
 .navegacion nav{
@@ -101,7 +102,7 @@ background:#FDEDD8;
 		margin: auto;
 		display: flex;
 	}
-	#caval_title{	
+	#caval_title{
         margin-left: calc(50% - 75px);
     }
 	#caval_title img{
