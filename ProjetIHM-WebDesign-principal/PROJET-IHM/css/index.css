@@ -96,6 +96,7 @@
 }
 /*Produits-title*/
 #title_prod{
+	font-family: karma;
 	background: black;
 	display: flex;
   justify-content: center;
@@ -110,6 +111,7 @@
 	color: #06283B;
 	line-height: 36px;
 	font-family: sans-serif;
+	font-size: 18px;
 }
 .cont_prods p{
 	text-align: justify;

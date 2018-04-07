@@ -11,7 +11,7 @@ $(document).ready(function(){
 		}
 	});
 
-	// Agregando y Eliminando Clase nav-responsive
+	// Ajout et et efface Clase nav-responsive
 	var wd = $(window).width();
 	// console.log(wd);
 	if(wd <= 768 ){

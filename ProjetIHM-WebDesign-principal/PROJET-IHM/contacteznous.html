@@ -6,12 +6,16 @@
 	<link rel="stylesheet"  href="./css/reset.css">
 	<link rel="stylesheet"  href="./css/nav.css">
 	<link rel="stylesheet"  href="./css/footer.css">
-	<link rel="stylesheet" href="./css/fontello.css">
+	<link rel="stylesheet"  href="./css/fontello.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Karma:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="./css/contacteznous.css">
 	<script src="./js/main.js"></script>
+  <title>Formulaire du Contact</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
 	<header>
@@ -58,37 +62,42 @@
             </div>
 		</div>
 	</header>
-    <section>
-        <div class="container">
-            <h1>CONTACT</h1>
-            <form action="action_page.php">
+	<section class="form_wrap">
+		<section class="cantact_info">
+				<section class="info_title">
+						<h2>CAVAL</h2>
+				</section>
+				<section class="info_items">
+					<div class="phone">
+							<img src="img/phone.png" alt="">
+							<h3>07 89 01 26 54</h3>
+					</div>
+					<div class="email">
+							<img src="img/mailing.png" alt="">
+							<h3>jesuis@en-caval.fr</h3>
+					</div>
+				</section>
+		</section>
 
-            <label for="prenom">Prénom</label>
-            <input type="text" id="fname" name="prenom" placeholder="Prénom">
+		<form action="" class="form_contact">
+				<h2>Envoyez-nous un message</h2>
+				<div class="user_info">
+						<label for="names">Nom et Prénom *</label>
+						<input type="text" id="names">
 
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" placeholder="Nom">
+						<label for="phone">Telephone</label>
+						<input type="text" id="phone">
 
-            <label for="mail">Adresse e-mail</label>
-            <input type="text" id="mail" name="mail" placeholder="E-mail">
+						<label for="email">Courrier electronique *</label>
+						<input type="text" id="email">
 
-            <label for="tel">Téléphone (facultatif)</label>
-            <input type="text" id="tel" name="tel" placeholder="Numéro de téléphone">
+						<label for="mensaje">Message *</label>
+						<textarea id="mensaje"></textarea>
 
-            <label for="sujet">Raison du contact</label>
-            <select id="sujet" name="sujet">
-                <option value="choix">Faites votre choix ... </option>
-                <option value="produits">Produits</option>
-                <option value="livraison">Livraision</option>
-                <option value="retours">Retours</option>
-            </select>
-
-            <label for="commentaire">Commentaire</label>
-            <textarea id="commentaire" name="commentaire" placeholder="Écrivez quelque chose ..." style="height:200px"></textarea>
-            <input type="submit" value="Envoyer">
-            </form>
-        </div>
-    </section>
+						<input type="button" value="Envoyer message" id="btnSend">
+				</div>
+		</form>
+</section>
     <footer>
         <div class="content-1">
             <div class="menu_footer">
