@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css?family=Karma:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="./css/contacteznous.css">
 	<script src="./js/main.js"></script>
-  <title>Formulaire du Contact</title>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/script.js"></script>
@@ -31,7 +30,7 @@
                     <img src="./img/instagram.png" class="reseaux" alt="">
                 </a>
                 <a href="index.html">
-                    <img src="./img/youtube.png" class="reseaux" alt="" width=25px height=25px>
+                    <img src="./img/youtube.png" class="reseaux" alt="">
                 </a>
                 <a href="index.html">
                     <img src="./img/vimeo.png" class="reseaux" alt="">
@@ -40,7 +39,7 @@
                     <img src="./img/google-plus.png" class="reseaux" alt="">
                 </a>
                 <a href="index.html">
-                    <img src="./img/pinterest.png" class="reseaux" alt="" width=25px height=25px>
+                    <img src="./img/pinterest.png" class="reseaux" alt="">
                 </a>
             </nav>
             <div class="navegacion">
@@ -62,53 +61,60 @@
             </div>
 		</div>
 	</header>
-	<section class="form_wrap">
-		<section class="cantact_info">
-				<section class="info_title">
-						<h2>CAVAL</h2>
-				</section>
-				<section class="info_items">
-					<div class="phone">
-							<img src="img/phone.png" alt="">
-							<h3>07 89 01 26 54</h3>
-					</div>
-					<div class="email">
-							<img src="img/mailing.png" alt="">
-							<h3>jesuis@en-caval.fr</h3>
-					</div>
-				</section>
-		</section>
+    <section class="form_wrap">
+        <section class="cantact_info">
+            <section class="info_title">
+                <h2>CAVAL</h2>
+            </section>
+            <section class="info_items">
+                <div class="phone">
+                    <img src="img/phone.png" alt="">
+                    <h3>07 89 01 26 54</h3>
+                </div>
+                <div class="email">
+                    <img src="img/mailing.png" alt="">
+                    <h3>jesuis@en-caval.fr</h3>
+                </div>
+            </section>
+        </section>
+        <form class="form_contact">
+            <h2>Envoyez-nous un message</h2>
+            <div class="user_info">
+                <label for="names">Nom et Prénom *</label>
+                <input type="text" id="names">
 
-		<form action="" class="form_contact">
-				<h2>Envoyez-nous un message</h2>
-				<div class="user_info">
-						<label for="names">Nom et Prénom *</label>
-						<input type="text" id="names">
+                <label for="phone">Telephone</label>
+                <input type="text" id="phone">
 
-						<label for="phone">Telephone</label>
-						<input type="text" id="phone">
+                <label for="email">Courrier electronique *</label>
+                <input type="text" id="email">
+                
+                <label for="sujet">Sujet de votre message</label>
+                <select id="sujet" name="sujet">
+                    <option value="produit">Produit</option>
+                    <option value="livraison">Livraison</option>
+                    <option value="retour">Retour</option>
+                    <option value="autres">Autres</option>
+                </select>
 
-						<label for="email">Courrier electronique *</label>
-						<input type="text" id="email">
+                <label for="mensaje">Message *</label>
+                <textarea id="mensaje"></textarea>
 
-						<label for="mensaje">Message *</label>
-						<textarea id="mensaje"></textarea>
-
-						<input type="button" value="Envoyer message" id="btnSend">
-				</div>
-		</form>
-</section>
+                <input type="button" value="Envoyer message" id="btnSend">
+            </div>
+        </form>
+    </section>
     <footer>
         <div class="content-1">
             <div class="menu_footer">
                 <span class="title">Plan du site</span>
                 <div class="list">
                     <ul>
-                        <li><a href="index.html" id="link">Accueil</a></li>
-                        <li><a href="nosproduits.html" id="link">Nos produits</a></li>
-                        <li><a href="aproposdenous.html" id="link">À propos de nous</a></li>
-                        <li><a href="" id="link">Boutique</a></li>
-                        <li><a href="contacteznous.html" id="link">Contactez-nous</a></li>
+                        <li><a href="index.html" class="link">Accueil</a></li>
+                        <li><a href="nosproduits.html" class="link">Nos produits</a></li>
+                        <li><a href="aproposdenous.html" class="link">À propos de nous</a></li>
+                        <li><a href="" class="link">Boutique</a></li>
+                        <li><a href="contacteznous.html" class="link">Contactez-nous</a></li>
                     </ul>
                 </div>
             </div>
