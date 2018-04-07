@@ -25,10 +25,10 @@ footer .menu_footer{
 	border-right: 1px solid #06283B;
 	width: 20%;
 }
-footer #link{
+footer .link{
 	  color: #FDDCB0;
 }
-footer  #link:hover {
+footer  .link:hover {
     text-decoration: underline;
     font-weight: bold;
     font-size: 14px;

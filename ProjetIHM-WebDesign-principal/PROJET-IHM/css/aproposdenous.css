@@ -4,6 +4,18 @@
     padding: 15px 15px 15px 15px;
 }
 
+.haut h1 {
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 10px 0px;
+    width: 50%;
+    font-size: 24px; 
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #founder {
     margin-top: 15px;
     height: 600px;
@@ -29,11 +41,49 @@
 
 .droite {
     text-align: justify;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .gauche, .droite {
     display: inline-block;
     width: 49%;
     vertical-align: text-top;
+}
+
+@media screen and (max-width: 768px){
+    .haut h1 {
+        width: 100%;
+    }
+    
+    #founder {
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .gauche, .droite {
+        display: inline;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .bandeau {
+        height: 30px;
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
 }

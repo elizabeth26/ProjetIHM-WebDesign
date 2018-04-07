@@ -13,7 +13,9 @@ section{
   width: 600px;
   padding-bottom: 20px;
 }
-.produits{display: flex;}
+.produits{
+    display: flex;
+}
 .gauche, .droite {
   width: 49.8%;
   display: flex;
@@ -38,7 +40,8 @@ section{
 .imagen_cont{
   display: flex;
   justify-content: center;
-  padding-bottom: 15px;}
+  padding-bottom: 15px;
+}
 .utiles {
     display: flex;
     justify-content: space-around;
@@ -50,7 +53,6 @@ section{
   color: black;
   font-weight: bold;
   font-size: 16px;
-  font-family: karma;
   padding-top: 10px;
   text-align: center;
 }
@@ -62,10 +64,10 @@ font-size: 15px;
 }
 
 @media screen and (max-width: 768px){
-    section{
+    section {
         padding: 20px 0px;
     }
-    p{
+    p {
         display: block;
         font-size: 15px;
         line-height: 16px;

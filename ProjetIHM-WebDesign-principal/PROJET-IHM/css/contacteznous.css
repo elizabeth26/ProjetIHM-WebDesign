@@ -2,8 +2,8 @@
 /* FORM =================================== */
 
 .form_wrap{
-    max-width: 965px;
-    max-height: 530px;
+    max-width: 1000px;
+    max-height: 600px;
     margin: 50px auto;
     display: flex;
     background: #fff;
@@ -96,8 +96,12 @@ form.form_contact label{
     font-weight: 600;
 }
 
+form label {
+    margin-bottom: 15px;
+}
+
 form.form_contact input,
-form.form_contact textarea{
+form.form_contact textarea, select{
     width: 100%;
     padding: 8px 0px 5px;
     margin-bottom: 20px;
