@@ -49,23 +49,26 @@ table {
 
 h1 {
     font-family: 'karma' serif;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 h2 {
     font-family: 'karma' serif;
-    font-size: 22px;
+    font-size: 25px;
 }
 
-a, h3{
+h3{
     font-family: 'karma' serif;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+p, a {
+    font-family: 'karma' serif;
+    font-size: 17px;
     line-height: 18px;
 }
 
 p {
-    font-family: 'karma' serif;
-    font-size: 17px;
     margin-bottom: 10px;
-    line-height: 18px;
 }
