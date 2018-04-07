@@ -94,8 +94,18 @@
 	background-color: #06283B;
 	color: #FDEDD8;
 }
+/*Produits-title*/
+#title_prod{
+	background: black;
+	display: flex;
+  justify-content: center;
+	padding: 10px;
+}
+#title_prod h1{
+	color: white;
+}
 /*Images-text*/
-#pres_produits h1{
+.cont_prods h1{
 	font-weight: bold;
 	color: #06283B;
 	line-height: 36px;
@@ -112,6 +122,7 @@
 }
 .cont_prods{
 	background: white;
+	padding-top: 10px;
 }
 #part1,#part2,#part3,#part4{
 	display: flex;
